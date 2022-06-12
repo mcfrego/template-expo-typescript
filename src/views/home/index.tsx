@@ -5,6 +5,8 @@ import { StyleSheet, Text, View } from 'react-native'
 import { useAppDispatch } from '../../../shared/redux/hooks'
 import { homeLaunched } from '../../../shared/redux/slices/app'
 
+console.log('env file value: ', process.env.KEY_EXAMPLE)
+
 const Home = function () {
   const dispatch = useAppDispatch()
 
